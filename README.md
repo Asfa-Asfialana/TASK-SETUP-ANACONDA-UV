@@ -18,6 +18,8 @@ Jadi, sama kayak aku yang lagi belajar dan masih pemula dalam dunia coding. aku 
 - ✅ Ngebantu teman-teman dan ingatin aku tentang cara **setup Anaconda UV** di laptop
 - 📚 Tempat ngumpulin **task mingguan** dari pak  Arry
 
+## Bagian 1 - Mengenal dan Instalasi Anaconda 🐍
+
 sebelum masuk ke setup anaconda, conda dan uv, aku mau kasih tau dulu **Apa** sih sebenarnya mereka ?
 
 Setelah aku baca- baca dan cari beberapa materi,aku akan jelasin singkat dan sederhana ya temen-temen. Biar mudah dipahami terutama bagi pemula kayak aku. 
@@ -131,7 +133,7 @@ Atau kamu bisa tambahkan manual, **Kenapa**?? Hal ini agar kita bisa manggil ana
 
 - Klik New dan tambahin ini :
 
-![edit-enviromental](
+![edit-enviromental](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/edit-enviromental.png)
 
 - Klik OK semua sampe keluar.
 
@@ -142,10 +144,60 @@ Atau kamu bisa tambahkan manual, **Kenapa**?? Hal ini agar kita bisa manggil ana
     - Jangan menghapus PATH penting lainnya.
     - Hati-hati saat edit variabel lingkungan.
     - Jangan asal tambahin folder lain dari dalam Anaconda ke PATH
+    
+----
 
+### 4. Membuat Lingkungan Conda Baru 
 
-### 4. Buat Environment Baru dengan Nama `uv`
+Kalau di analogikan secara sederhana "Lingkungan Conda tuh kayak kosan terpisah buat tiap proyek. Jadi tiap proyek gak rebutan isi kulkas (library) dan gak tabrakan Python-nya". Sama kayak baju dalam lemari yang kita susun sesuai gayanya, misal celana bersama celana, baju bersama baju, jilbab bersama dengan jilbab lainnya, begitulah analoginya. Dan tujuan akhirnya adalah agar semua menjadi rapi, tersusun dan ga saling berantem.
 
-```bash
-conda create -n uv python=3.10
+Jadi step by step yang harus kalian lakukan saat ingin membuat lingkungan conda baru adalah :
 
+- Ketik di terminal: conda create -n nama_env python=3.9
+
+![new-environment](
+
+**Do's:** 
+    - kasih nama environment-nya (bebas) yang mudah diingat dan disukai
+    - tentuin versi Python (bisa disesuaikan)
+
+**Don'ts:**
+    - jangan asal campur-campur library
+    - jangan asal hapus environment sebelum benar-benar yakin
+
+----
+
+## Bagian 2. UV Environment
+----
+
+#### 1. Membuat UV Environment
+
+**Apa** sih UV Environment itu ???
+UV Environment adalah virtual environment Python yang dibuat dan dikelola pakai uv. Kita analogikan begini, setelah aku baca dan cari tau bahwa conda itu ibarat garasi super gede dan lengkap tapi buka garasinya masih lama, ribet pokoknya makan waktu.
+
+Nah, sedangkan si UV ini garasi kecil, minimalis tapi canggih dan super cepat. 
+
+**Kenapa** kita pakai UV ya karena super cepat, praktik, ga ribet dan cocok buat aku dan temen-temen ETL yang suka praktis. 
+
+Caranya adalah sebagai berikut :
+
+- Buka CMD dan pastikan conda sedang tidak aktif
+- Ketik: pip install uv
+
+![uv-berhasil](
+
+- Jika berhasil maka akan keluar Output seperti Successfully installed uv-0.7.12
+  
+#### 2. Menginisialisasi Proyek UV
+
+**Apa** itu inisialisasi proyek uv ? Menginisialisasi proyek uv artinya nyiapin folder kerja + environment Python-nya + file dependensi supaya lo bisa langsung ngoding dengan sistem yang terstruktur dan modern.
+
+**Kenapa** kira perlu menginisialisasi proyek uv? Karena kalau kita coding bikin proyek phyton tanpa environment maka semua akan menjadi berantakan dan akan menggangu proyek yang lain.
+
+Adapun cara-caranya adalah :
+1. Pastikan environment UV sudah aktif
+2. Ketik: uv init ghost_intellixuv
+3. Untuk mencari dic kembali maka ketik : Cd ghost intellixuv
+4. Output menunjukkan proyek diinisialisasi di C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv.
+
+![
