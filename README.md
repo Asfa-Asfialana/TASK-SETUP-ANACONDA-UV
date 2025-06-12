@@ -54,16 +54,21 @@ Pertama yang harus kita lakukan adalah download anaconda dan buka website resmi 
   
 ![download-anaconda](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/Download-anaconda.png)
 
+
 **Do** :
 
     - Wajib Download di website resmi
 
     - Di web resmi dijamin dapat versi asli dari Anaconda, yang udah diverifikasi.
     
+
+
 **Dont** :
+
     - Kalau kamu download dari sumber yang gak jelas atau situs pihak ketiga, bisa jadi file-nya udah dimodifikasi dan disisipi malware, spyware, atau virus yang bahaya banget buat laptop kamu 😱. 
-    
+
     - File dari luar bisa aja palsu, atau udah di-crack yang bikin sistem kamu gak stabil dan rawan error.
+
 
 ----
 
@@ -89,17 +94,25 @@ Berikut Tutorialnya :
 -✅ "Add Anaconda to my PATH environment variable"
 Nah, ini penting banget untuk dipahami:
 
+
 **Do's** :
+
     - kalau kamu mau anaconda bisa diakses di terminal manapun kamu bisa menceklisnya, ya. Ini bisa dilakukan atau tidak dilakukan, tergantung kebutuhan kamu.
     
 **Don'ts**:
+    
     - jika kamu merasa tidak memerlukannya, maka tidak perlu di ceklis (opsional)
+
+
 
 **5.** ![install5](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/install5.png)
 
+
 **Do's**: Tetap di direktori yang otomatis dipilih system
 
+
 **Don'ts**: Jangan ubah direktori
+
 
 **6.** ![install6](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/install6.png)
 
@@ -111,13 +124,17 @@ Berhasil dan Proses instalasi sudah selesai dilakukan 🎉
 
 ### 3. Verifikasi Anaconda Teristall
 
+
 Teman-teman harus membuka CMD alias **Command Prompt** bisa dilakukan langsung dengan : 
+
+  
   - Windows + R
     
   - ketik : conda --version
     
 ![cmd-berhasil](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/cmd-berhasil.png)
  
+
   - Kalau muncul conda 24.9.2 artinya Anaconda SUDAH TERINSTALL dengan benar dan PATH-nya aman.
     
   - Tapi kalau yang muncul seperti ini 'conda' is not recognized as an internal or external command... artinya Anaconda belum ditambahkan ke PATH.
@@ -136,26 +153,31 @@ Jadi, kalau Anaconda belum ditambahkan ke PATH, CMD gak bakal tahu harus nyari c
 
 Tapi tenang! Bukan berarti belum terinstall — kamu masih bisa akses lewat Anaconda Prompt.
 
+
 Atau kamu bisa tambahkan manual, **Kenapa**?? Hal ini agar kita bisa manggil anaconda dari terminal mana saja. Nah caranya adalah :
 
-- Buka Start Menu → cari "Environment Variables" → klik Edit the system environment variables.
+    - Buka Start Menu → cari "Environment Variables" → klik Edit the system environment variables.
 
-- Klik Environment Variables...
+    - Klik Environment Variables...
 
-- Di bagian User variables → klik Path → klik Edit.
+    - Di bagian User variables → klik Path → klik Edit.
 
-- Klik New dan tambahin ini :
+    - Klik New dan tambahin ini :
 
 ![edit-enviromental](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/edit-enviromental.png)
 
-- Klik OK semua sampe keluar.
+    - Klik OK semua sampe keluar.
 
 **Do's:**
+    
     - Restart CMD atau buka yang baru.
 
 **Don'ts:**
+    
     - Jangan menghapus PATH penting lainnya.
+    
     - Hati-hati saat edit variabel lingkungan.
+    
     - Jangan asal tambahin folder lain dari dalam Anaconda ke PATH
     
 ----
@@ -166,17 +188,26 @@ Kalau di analogikan secara sederhana "Lingkungan Conda tuh kayak kosan terpisah 
 
 Jadi step by step yang harus kalian lakukan saat ingin membuat lingkungan conda baru adalah :
 
-- Ketik di terminal: conda create -n nama_env python=3.9
+    
+    - Ketik di terminal: conda create -n nama_env python=3.9
+
 
 ![new-environment](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/new-environment.png)
 
+
 **Do's:** 
+
     - kasih nama environment-nya (bebas) yang mudah diingat dan disukai
+    
     - tentuin versi Python (bisa disesuaikan)
 
+
 **Don'ts:**
+
     - jangan asal campur-campur library
+    
     - jangan asal hapus environment sebelum benar-benar yakin
+
 
 ----
 
@@ -194,12 +225,14 @@ Nah, sedangkan si UV ini garasi kecil, minimalis tapi canggih dan super cepat.
 
 Caranya adalah sebagai berikut :
 
-- Buka CMD dan pastikan conda sedang tidak aktif
-- Ketik: pip install uv
+    - Buka CMD dan pastikan conda sedang tidak aktif
+
+    - Ketik: pip install uv
 
 ![pip](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/pip.png)
 
-- Jika berhasil maka akan keluar Output seperti Successfully installed uv-0.7.12
+    - Jika berhasil maka akan keluar Output seperti Successfully installed uv-0.7.12
+
 
 ----
   
@@ -210,12 +243,18 @@ Caranya adalah sebagai berikut :
 **Kenapa** kira perlu menginisialisasi proyek uv? Karena kalau kita coding bikin proyek phyton tanpa environment maka semua akan menjadi berantakan dan akan menggangu proyek yang lain.
 
 Adapun cara-caranya adalah :
-1. Pastikan environment UV sudah aktif
-2. Ketik: uv init ghost_intellixuv
-3. Untuk mencari dic kembali maka ketik : Cd ghost intellixuv
-4. Output menunjukkan proyek diinisialisasi di C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv.
+
+    1. Pastikan environment UV sudah aktif
+
+    2. Ketik: uv init ghost_intellixuv
+
+    3. Untuk mencari dic kembali maka ketik : Cd ghost intellixuv
+
+    4. Output menunjukkan proyek diinisialisasi di C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv.
+
 
 ![uv-init](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/uv-init.png)
+
 
 ----
 
@@ -237,8 +276,9 @@ Install paket di uv environment itu kayak masukin alat ke toolbox pribadi. Gak m
 
 langkah-langkah yang harus kita lakukan adalah :
 
-1.	Ketik: uv add pandas
-2.	maka outputnya akan seperti ini :
+    1.	Ketik: uv add pandas
+        
+    2.	maka outputnya akan seperti ini :
 
 ![uv-add-pandas](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/uv-add-pandas.png)
 
@@ -251,18 +291,24 @@ langkah-langkah yang harus kita lakukan adalah :
 **kenapa** harus Menonaktifkan Lingkungan UV? karena ya biar jelas kapan kita selesai atau kapan kita sedang mengerjakan proyek tersebut. Dan agar ga bentrok sama proyek lainnya.
 
 Langkah-langkah:
-1.	Ketik: .venv\Scripts\deactivate
-2.	Prompt kembali ke C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>.
+    1.	Ketik: .venv\Scripts\deactivate
+    
+    2.	Prompt kembali ke C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>.
 
 ![uv-ghost](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/uv-ghost.png)
 
 
 **Do's** : 
+    
     - Selalu nonaktifkan env setelah selesai kerja	Biar gak ketuker waktu pindah proyek
+    
     - Nonaktifkan sebelum aktifin env lain	Biar gak bentrok
 
+
 **Don'ts** : 
+
     - Jangan install paket di terminal kalau lupa environment-nya aktif apa enggak
+    
     - Jangan aktifin dua environment sekaligus 
 
 ----
