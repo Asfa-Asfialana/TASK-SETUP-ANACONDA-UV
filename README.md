@@ -18,6 +18,8 @@ Jadi, sama kayak aku yang lagi belajar dan masih pemula dalam dunia coding. aku 
 - ✅ Ngebantu teman-teman dan ingatin aku tentang cara **setup Anaconda UV** di laptop
 - 📚 Tempat ngumpulin **task mingguan** dari pak  Arry
 
+-------
+
 ## Bagian 1 - Mengenal dan Instalasi Anaconda 🐍
 
 sebelum masuk ke setup anaconda, conda dan uv, aku mau kasih tau dulu **Apa** sih sebenarnya mereka ?
@@ -39,14 +41,17 @@ okeee, mungkin singkatnya begitu. Aku akan perbaiki kalau ada masukan dan perbai
 
 ## 🛠️ Step-by-Step Setup Anaconda Conda dan UV
 
-**Bagaimana** cara menginstall anaconda ????
+### Bagaimana cara menginstall anaconda ????
 
 ### 1. Download Anaconda 
 
 Pertama yang harus kita lakukan adalah download anaconda dan buka website resmi Anaconda (pastikan wajib website resmi ya). 
+
 - Buka situs resminya di sini guys :
     👉 [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution)
+  
 - Pilih sesuai OS (Windows/Mac/Linux) , kali ini aku pilih windows. Teman-teman bisa sesuaikan dengan OS masing-masing.
+  
 ![download-anaconda](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/Download-anaconda.png)
 
 **Do** :
@@ -57,6 +62,8 @@ Pertama yang harus kita lakukan adalah download anaconda dan buka website resmi 
     - Kalau kamu download dari sumber yang gak jelas atau situs pihak ketiga, bisa jadi file-nya udah dimodifikasi dan disisipi malware, spyware, atau virus yang bahaya banget buat laptop kamu 😱. 
     - File dari luar bisa aja palsu, atau udah di-crack yang bikin sistem kamu gak stabil dan rawan error.
 
+----
+
 ### 2. Install Anaconda
 
 **🐍 Kenapa Install ANACONDA?**
@@ -66,6 +73,7 @@ Udah langsung bawa Python + ratusan tools penting buat data science, machine lea
 - Maka bisa langsung download ➡️ Install ➡️ Klik *Next* terus sampe *Finish*
   
 Berikut Tutorialnya : 
+
 **1**. ![install1](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/install1.png)
 
 **2.** ![install2](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/install2.png)
@@ -102,11 +110,13 @@ Berhasil dan Proses instalasi sudah selesai dilakukan 🎉
 
 Teman-teman harus membuka CMD alias **Command Prompt** bisa dilakukan langsung dengan : 
   - Windows + R
+    
   - ketik : conda --version
     
 ![cmd-berhasil](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/cmd-berhasil.png)
  
   - Kalau muncul conda 24.9.2 artinya Anaconda SUDAH TERINSTALL dengan benar dan PATH-nya aman.
+    
   - Tapi kalau yang muncul seperti ini 'conda' is not recognized as an internal or external command... artinya Anaconda belum ditambahkan ke PATH.
 
 ![cmd-gagal](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/cmd-gagal.png)
