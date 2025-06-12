@@ -357,3 +357,5 @@ Dalam pengembangan proyek Python, kita bisa menggunakan environment manager untu
 
 > Gunakan **Conda** jika kamu butuh fleksibilitas tinggi untuk proyek data science dan non-Python dependencies.  
 > Gunakan **UV** jika kamu ingin kecepatan, kesederhanaan, dan proyek Python murni yang modern.
+
+### Sekian dan Terimakasih 👋
