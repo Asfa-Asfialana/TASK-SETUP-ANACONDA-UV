@@ -45,7 +45,7 @@ Pertama yang harus kita lakukan adalah download anaconda dan buka website resmi 
 - Buka situs resminya di sini guys :
     👉 [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution)
 - Pilih sesuai OS (Windows/Mac/Linux) , kali ini aku pilih windows. Teman-teman bisa sesuaikan dengan OS masing-masing.
-
+![download-anaconda](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/Download-anaconda.png)
 
 **Do** :
     - Wajib Download di website resmi
