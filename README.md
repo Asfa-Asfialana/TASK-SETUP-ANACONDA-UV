@@ -55,8 +55,9 @@ Pertama yang harus kita lakukan adalah download anaconda dan buka website resmi 
 ![download-anaconda](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/Download-anaconda.png)
 
 **Do** :
+
     - Wajib Download di website resmi
-    
+
     - Di web resmi dijamin dapat versi asli dari Anaconda, yang udah diverifikasi.
     
 **Dont** :
