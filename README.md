@@ -13,7 +13,7 @@ Repo ini khusus dibuat untuk **task mingguan** sekaligus jadi panduan buat **sob
 Jadi, sama kayak aku yang lagi belajar dan masih pemula dalam dunia coding. aku harap kita bisa lebih jago dan makin kece dalam dunia data dan coding, yuk ikuti step-by-step-nya!
 
 
-## 🎯 Tujuan Repo Ini
+## 🎯 Tujuan Repository Ini
 
 - ✅ Ngebantu teman-teman dan ingatin aku tentang cara **setup Anaconda UV** di laptop
 - 📚 Tempat ngumpulin **task mingguan** dari pak  Arry
@@ -46,22 +46,28 @@ pertama yang harus kalian lakukan adalah download anaconda dan buka website resm
 - Pilih sesuai OS (Windows/Mac/Linux) , kali ini aku pilih windows. Teman-teman bisa sesuaikan dengan laptop masing-masing.
 - Lalu bisa langsung download ➡️ Install ➡️ Klik *Next* terus sampe *Finish*
   
-  **eeittss,** aku mau kasih tau sesuatu sebelum lanjut
+  **eeittss,** aku mau kasih tau sesuatu sebelum lanjut ke tutorial
+
   Pas kamu install Anaconda, pasti nemu opsi:
+-✅ "Add Anaconda to my PATH environment variable"
 
-✅ "Add Anaconda to my PATH environment variable"
-
-Nah, ini penting banget untuk dipahami: bisa dilakukan atau tidak dilakukan, tergantung kebutuhan kamu. Berikut aku kasih tutorial dari hasil install di laptopku yaa..
+Nah, ini penting banget untuk dipahami: kalau kamu mau anaconda bisa diakses di terminal manapun kamu bisa menceklisnya, ya. Ini bisa dilakukan atau tidak dilakukan, tergantung kebutuhan kamu. Berikut aku kasih tutorial dari hasil install di laptopku yaa..
 
 **🐍 Kenapa Install ANACONDA?**
 📦 Karena Anaconda = Paket Komplit
 Udah langsung bawa Python + ratusan tools penting buat data science, machine learning, statistik, dll. Cocok banget untuk pemula karena install sekali, dapet semua.
 
-**Do** : Wajib Download di website resmi, **Dont** : Kalau kamu download dari sumber yang gak jelas atau situs pihak ketiga, bisa jadi file-nya udah dimodifikasi dan disisipi malware, spyware, atau virus yang bahaya banget buat laptop kamu 😱. 
+**Do** : 
+- Wajib Download di website resmi,
+- **Dont** :
+- Kalau kamu download dari sumber yang gak jelas atau situs pihak ketiga, bisa jadi file-nya udah dimodifikasi dan disisipi malware, spyware, atau virus yang bahaya banget buat laptop kamu 😱. 
 
 -----
 
-### 2. Buka Anaconda Prompt
+### 2. Verifikasi Anaconda Teristall
+- Buka CMD **Command Prompt** bisa dilakukan langsung dengan :
+- Windows + R
+
 - Cari **Anaconda Prompt** di Start Menu (untuk Windows)
 - Atau buka terminal (untuk Mac/Linux)
 
