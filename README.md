@@ -35,43 +35,72 @@ okeee, mungkin singkatnya begitu. Aku akan perbaiki kalau ada masukan dan perbai
 
 ---
 
-## 🛠️ Step-by-Step Setup Anaconda UV
+## 🛠️ Step-by-Step Setup Anaconda Conda dan UV
 
 **Bagaimana** cara menginstall anaconda ????
 
-### 1. Download & Install Anaconda
-pertama yang harus kalian lakukan adalah download anaconda dan buka website resmi Anaconda (pastikan wajib website resmi ya). 
+### 1. Download 
+
+Pertama yang harus kita lakukan adalah download anaconda dan buka website resmi Anaconda (pastikan wajib website resmi ya). 
 - Buka situs resminya di sini guys :
-  👉 [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution)
-- Pilih sesuai OS (Windows/Mac/Linux) , kali ini aku pilih windows. Teman-teman bisa sesuaikan dengan laptop masing-masing.
-- Lalu bisa langsung download ➡️ Install ➡️ Klik *Next* terus sampe *Finish*
+    👉 [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution)
+- Pilih sesuai OS (Windows/Mac/Linux) , kali ini aku pilih windows. Teman-teman bisa sesuaikan dengan OS masing-masing.
+
+
+**Do** :
+    - Wajib Download di website resmi
+    - Di web resmi dijamin dapat versi asli dari Anaconda, yang udah diverifikasi.
+**Dont** :
+    - Kalau kamu download dari sumber yang gak jelas atau situs pihak ketiga, bisa jadi file-nya udah dimodifikasi dan disisipi malware, spyware, atau virus yang bahaya banget buat laptop kamu 😱. 
+    - File dari luar bisa aja palsu, atau udah di-crack yang bikin sistem kamu gak stabil dan rawan error.
+
+### 2. Install Anaconda
+
+**🐍 Kenapa Install ANACONDA?**
+Sebagai pemula anaconda itu ibarat = Paket Komplit 📦
+Udah langsung bawa Python + ratusan tools penting buat data science, machine learning, statistik, dll. Cocok banget untuk pemula karena install sekali, dapet semua.
+- setelah sebelumnya kita berhasil download anaconda di website resmi 
+- maka bisa langsung download ➡️ Install ➡️ Klik *Next* terus sampe *Finish*
+Berikut Tutorialnya : 
   
   **eeittss,** aku mau kasih tau sesuatu sebelum lanjut ke tutorial
 
   Pas kamu install Anaconda, pasti nemu opsi:
 -✅ "Add Anaconda to my PATH environment variable"
-
-Nah, ini penting banget untuk dipahami: kalau kamu mau anaconda bisa diakses di terminal manapun kamu bisa menceklisnya, ya. Ini bisa dilakukan atau tidak dilakukan, tergantung kebutuhan kamu. Berikut aku kasih tutorial dari hasil install di laptopku yaa..
-
-**🐍 Kenapa Install ANACONDA?**
-📦 Karena Anaconda = Paket Komplit
-Udah langsung bawa Python + ratusan tools penting buat data science, machine learning, statistik, dll. Cocok banget untuk pemula karena install sekali, dapet semua.
-
-**Do** : 
-- Wajib Download di website resmi,
-- **Dont** :
-- Kalau kamu download dari sumber yang gak jelas atau situs pihak ketiga, bisa jadi file-nya udah dimodifikasi dan disisipi malware, spyware, atau virus yang bahaya banget buat laptop kamu 😱. 
-
+Nah, ini penting banget untuk dipahami:
+**Do's** :
+    - kalau kamu mau anaconda bisa diakses di terminal manapun kamu bisa menceklisnya, ya. Ini bisa dilakukan atau tidak dilakukan, tergantung kebutuhan kamu..
+**Don'ts**:
+    - jika kamu merasa tidak memerlukannya, maka tidak perlu di ceklis (opsional)
+      
 -----
 
 ### 2. Verifikasi Anaconda Teristall
-- Buka CMD **Command Prompt** bisa dilakukan langsung dengan :
-- Windows + R
+a. Buka CMD **Command Prompt** bisa dilakukan langsung dengan : 
+  - Windows + R
+  - ketik : conda --version
+  - Kalau muncul conda 24.9.2 artinya Anaconda SUDAH TERINSTALL dengan benar dan PATH-nya aman.
+  - Tapi kalau yang muncul seperti ini 'conda' is not recognized as an internal or external command... artinya Anaconda belum ditambahkan ke PATH.
+**APA ITU PATH?**
+PATH itu kayak daftar jalan tol tempat Windows nyari file executable kayak python, conda, atau jupyter.
+Kalau kamu ngetik conda di CMD, Windows akan nyari conda.exe di semua folder yang ada di dalam daftar PATH.
+Jadi, kalau Anaconda belum ditambahkan ke PATH, CMD gak bakal tahu harus nyari conda ke mana ➡️ muncullah error. Tapi tenang! Bukan berarti belum terinstall — kamu masih bisa akses lewat Anaconda Prompt.
+
+**Do's:**
+    - Pastikan sudah menutup dan membuka terminal baru setelah konfigurasi.
+    - Restart komputer jika perlu.
+
+**Don'ts:**
+    - Jangan menghapus PATH penting lainnya.
+    - Hati-hati saat edit variabel lingkungan.
+
 
 - Cari **Anaconda Prompt** di Start Menu (untuk Windows)
 - Atau buka terminal (untuk Mac/Linux)
 
 ---
+
+
 
 ### 3. Buat Environment Baru dengan Nama `uv`
 
