@@ -101,28 +101,50 @@ Berhasil dan Proses instalasi sudah selesai dilakukan 🎉
 Teman-teman harus membuka CMD alias **Command Prompt** bisa dilakukan langsung dengan : 
   - Windows + R
   - ketik : conda --version
-!
+    
+![cmd-berhasil](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/cmd-berhasil.png)
+ 
   - Kalau muncul conda 24.9.2 artinya Anaconda SUDAH TERINSTALL dengan benar dan PATH-nya aman.
   - Tapi kalau yang muncul seperti ini 'conda' is not recognized as an internal or external command... artinya Anaconda belum ditambahkan ke PATH.
-!
+
+![cmd-gagal](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/cmd-gagal.png)
+
+Ini karena kita gak centang "Add Anaconda to PATH" saat instalasi, Windows gak tau di mana lokasi file conda atau python dari Anaconda.
 
 **APA ITU PATH?**
 
 PATH itu kayak daftar jalan tol tempat Windows nyari file executable kayak python, conda, atau jupyter.
+
 Kalau kamu ngetik conda di CMD, Windows akan nyari conda.exe di semua folder yang ada di dalam daftar PATH.
-Jadi, kalau Anaconda belum ditambahkan ke PATH, CMD gak bakal tahu harus nyari conda ke mana ➡️ muncullah error. 
+
+Jadi, kalau Anaconda belum ditambahkan ke PATH, CMD gak bakal tahu harus nyari conda ke mana ➡️ muncullah error.
+
 Tapi tenang! Bukan berarti belum terinstall — kamu masih bisa akses lewat Anaconda Prompt.
 
+Atau kamu bisa tambahkan manual, **Kenapa**?? Hal ini agar kita bisa manggil anaconda dari terminal mana saja. Nah caranya adalah :
+
+- Buka Start Menu → cari "Environment Variables" → klik Edit the system environment variables.
+
+- Klik Environment Variables...
+
+- Di bagian User variables → klik Path → klik Edit.
+
+- Klik New dan tambahin ini :
+
+![edit-enviromental](
+
+- Klik OK semua sampe keluar.
+
 **Do's:**
-    - Pastikan sudah menutup dan membuka terminal baru setelah konfigurasi.
-    - Restart komputer jika perlu.
+    - Restart CMD atau buka yang baru.
 
 **Don'ts:**
     - Jangan menghapus PATH penting lainnya.
     - Hati-hati saat edit variabel lingkungan.
+    - Jangan asal tambahin folder lain dari dalam Anaconda ke PATH
 
 
-### 3. Buat Environment Baru dengan Nama `uv`
+### 4. Buat Environment Baru dengan Nama `uv`
 
 ```bash
 conda create -n uv python=3.10
