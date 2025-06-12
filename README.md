@@ -50,6 +50,7 @@ Pertama yang harus kita lakukan adalah download anaconda dan buka website resmi 
 **Do** :
     - Wajib Download di website resmi
     - Di web resmi dijamin dapat versi asli dari Anaconda, yang udah diverifikasi.
+    
 **Dont** :
     - Kalau kamu download dari sumber yang gak jelas atau situs pihak ketiga, bisa jadi file-nya udah dimodifikasi dan disisipi malware, spyware, atau virus yang bahaya banget buat laptop kamu 😱. 
     - File dari luar bisa aja palsu, atau udah di-crack yang bikin sistem kamu gak stabil dan rawan error.
