@@ -60,17 +60,20 @@ Pertama yang harus kita lakukan adalah download anaconda dan buka website resmi 
 **🐍 Kenapa Install ANACONDA?**
 Sebagai pemula anaconda itu ibarat = Paket Komplit 📦
 Udah langsung bawa Python + ratusan tools penting buat data science, machine learning, statistik, dll. Cocok banget untuk pemula karena install sekali, dapet semua.
-- setelah sebelumnya kita berhasil download anaconda di website resmi 
-- maka bisa langsung download ➡️ Install ➡️ Klik *Next* terus sampe *Finish*
+- Setelah sebelumnya kita berhasil download anaconda di website resmi 
+- Maka bisa langsung download ➡️ Install ➡️ Klik *Next* terus sampe *Finish*
+  
 Berikut Tutorialnya : 
   
-  **eeittss,** aku mau kasih tau sesuatu sebelum lanjut ke tutorial
+**eeittss,** aku mau kasih tau sesuatu sebelum lanjut ke tutorial
 
-  Pas kamu install Anaconda, pasti nemu opsi:
+Pas kamu install Anaconda, pasti nemu opsi:
 -✅ "Add Anaconda to my PATH environment variable"
 Nah, ini penting banget untuk dipahami:
+
 **Do's** :
-    - kalau kamu mau anaconda bisa diakses di terminal manapun kamu bisa menceklisnya, ya. Ini bisa dilakukan atau tidak dilakukan, tergantung kebutuhan kamu..
+    - kalau kamu mau anaconda bisa diakses di terminal manapun kamu bisa menceklisnya, ya. Ini bisa dilakukan atau tidak dilakukan, tergantung kebutuhan kamu.
+    
 **Don'ts**:
     - jika kamu merasa tidak memerlukannya, maka tidak perlu di ceklis (opsional)
       
