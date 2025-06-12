@@ -39,7 +39,7 @@ okeee, mungkin singkatnya begitu. Aku akan perbaiki kalau ada masukan dan perbai
 
 **Bagaimana** cara menginstall anaconda ????
 
-### 1. Download 
+### 1. Download Anaconda 
 
 Pertama yang harus kita lakukan adalah download anaconda dan buka website resmi Anaconda (pastikan wajib website resmi ya). 
 - Buka situs resminya di sini guys :
@@ -90,22 +90,28 @@ Nah, ini penting banget untuk dipahami:
 
 **6.** ![install6](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/install6.png)
 
-**7.** ![install8](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/install8.png)
+**7.** ![install7](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/install7.png))
 
 Berhasil dan Proses instalasi sudah selesai dilakukan 🎉
       
 -----
 
-### 2. Verifikasi Anaconda Teristall
-a. Buka CMD **Command Prompt** bisa dilakukan langsung dengan : 
+### 3. Verifikasi Anaconda Teristall
+
+Teman-teman harus membuka CMD alias **Command Prompt** bisa dilakukan langsung dengan : 
   - Windows + R
   - ketik : conda --version
+!
   - Kalau muncul conda 24.9.2 artinya Anaconda SUDAH TERINSTALL dengan benar dan PATH-nya aman.
   - Tapi kalau yang muncul seperti ini 'conda' is not recognized as an internal or external command... artinya Anaconda belum ditambahkan ke PATH.
+!
+
 **APA ITU PATH?**
+
 PATH itu kayak daftar jalan tol tempat Windows nyari file executable kayak python, conda, atau jupyter.
 Kalau kamu ngetik conda di CMD, Windows akan nyari conda.exe di semua folder yang ada di dalam daftar PATH.
-Jadi, kalau Anaconda belum ditambahkan ke PATH, CMD gak bakal tahu harus nyari conda ke mana ➡️ muncullah error. Tapi tenang! Bukan berarti belum terinstall — kamu masih bisa akses lewat Anaconda Prompt.
+Jadi, kalau Anaconda belum ditambahkan ke PATH, CMD gak bakal tahu harus nyari conda ke mana ➡️ muncullah error. 
+Tapi tenang! Bukan berarti belum terinstall — kamu masih bisa akses lewat Anaconda Prompt.
 
 **Do's:**
     - Pastikan sudah menutup dan membuka terminal baru setelah konfigurasi.
@@ -114,13 +120,6 @@ Jadi, kalau Anaconda belum ditambahkan ke PATH, CMD gak bakal tahu harus nyari c
 **Don'ts:**
     - Jangan menghapus PATH penting lainnya.
     - Hati-hati saat edit variabel lingkungan.
-
-
-- Cari **Anaconda Prompt** di Start Menu (untuk Windows)
-- Atau buka terminal (untuk Mac/Linux)
-
----
-
 
 
 ### 3. Buat Environment Baru dengan Nama `uv`
