@@ -116,7 +116,7 @@ Nah, ini penting banget untuk dipahami:
 
 **6.** ![install6](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/install6.png)
 
-**7.** ![install7](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/install7.png))
+**7.** ![install7](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/install7.png)
 
 Berhasil dan Proses instalasi sudah selesai dilakukan 🎉
       
@@ -291,6 +291,7 @@ langkah-langkah yang harus kita lakukan adalah :
 **kenapa** harus Menonaktifkan Lingkungan UV? karena ya biar jelas kapan kita selesai atau kapan kita sedang mengerjakan proyek tersebut. Dan agar ga bentrok sama proyek lainnya.
 
 Langkah-langkah:
+
     1.	Ketik: .venv\Scripts\deactivate
     
     2.	Prompt kembali ke C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>.
@@ -312,3 +313,47 @@ Langkah-langkah:
     - Jangan aktifin dua environment sekaligus 
 
 ----
+
+#### 5. 🧪 Perbandingan Conda vs UV Environment
+
+Dalam pengembangan proyek Python, kita bisa menggunakan environment manager untuk memisahkan paket/dependensi antar proyek. Dua tools populer adalah `conda` dan `uv`.
+
+### ⚖️ Apa Itu Conda dan UV?
+
+| Tool  | Penjelasan Singkat |
+|-------|---------------------|
+| **Conda** | Manajer environment dan paket, cocok untuk proyek sains data, AI, dan yang memerlukan library non-Python seperti C/C++. |
+| **uv**    | Manajer environment dan paket super ringan dan cepat, dibuat dengan Rust. Cocok untuk proyek Python modern, backend, dan development cepat. |
+
+---
+
+### 🤔 Mengapa Menggunakan Conda atau UV?
+
+| Alasan | Conda | UV |
+|--------|-------|----|
+| Manajemen library non-Python (misal: OpenCV, NumPy dari C) | ✅ Sangat kuat | ❌ Tidak direkomendasikan |
+| Proyek data science dan machine learning | ✅ Optimal | ⚠️ Bisa, tapi terbatas |
+| Proyek backend, CLI tools, web dev, dll | ⚠️ Berat, overkill | ✅ Sangat cocok |
+| Kecepatan dan efisiensi | ❌ Lebih lambat | ✅ Super cepat |
+| Ukuran tools dan environment | ❌ Besar (>3GB dengan Anaconda) | ✅ Ringan (<100MB total) |
+| Manajemen dependensi Python murni | ✅ Bisa | ✅ Sangat baik |
+| Format environment | `environment.yml` | `requirements.txt` |
+
+---
+
+
+### 🎯 Rekomendasi Penggunaan
+
+| Kebutuhan                                   | Rekomendasi |
+|---------------------------------------------|-------------|
+| Proyek data science/AI/ML besar              | Conda       |
+| Proyek web, backend, CLI tools               | UV          |
+| Butuh kecepatan & ringan untuk development   | UV          |
+| Butuh library luar Python (non-pip)          | Conda       |
+
+---
+
+### 📌 Kesimpulan
+
+> Gunakan **Conda** jika kamu butuh fleksibilitas tinggi untuk proyek data science dan non-Python dependencies.  
+> Gunakan **UV** jika kamu ingin kecepatan, kesederhanaan, dan proyek Python murni yang modern.
