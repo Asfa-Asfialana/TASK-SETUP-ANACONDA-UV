@@ -64,7 +64,10 @@ Udah langsung bawa Python + ratusan tools penting buat data science, machine lea
 - Maka bisa langsung download ➡️ Install ➡️ Klik *Next* terus sampe *Finish*
   
 Berikut Tutorialnya : 
-  
+**1**. ![install1](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/install1.png)
+**2.** ![install2](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/install2.png)
+**3.** ![Install3](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/Install3.png)
+
 **eeittss,** aku mau kasih tau sesuatu sebelum lanjut ke tutorial
 
 Pas kamu install Anaconda, pasti nemu opsi:
