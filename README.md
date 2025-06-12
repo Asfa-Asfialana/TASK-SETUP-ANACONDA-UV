@@ -155,7 +155,7 @@ Jadi step by step yang harus kalian lakukan saat ingin membuat lingkungan conda 
 
 - Ketik di terminal: conda create -n nama_env python=3.9
 
-![new-environment](
+![new-environment](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/new-environment.png)
 
 **Do's:** 
     - kasih nama environment-nya (bebas) yang mudah diingat dan disukai
@@ -184,9 +184,11 @@ Caranya adalah sebagai berikut :
 - Buka CMD dan pastikan conda sedang tidak aktif
 - Ketik: pip install uv
 
-![uv-berhasil](
+![pip](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/pip.png)
 
 - Jika berhasil maka akan keluar Output seperti Successfully installed uv-0.7.12
+
+----
   
 #### 2. Menginisialisasi Proyek UV
 
@@ -200,4 +202,54 @@ Adapun cara-caranya adalah :
 3. Untuk mencari dic kembali maka ketik : Cd ghost intellixuv
 4. Output menunjukkan proyek diinisialisasi di C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv.
 
-![
+![uv-init](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/uv-init.png)
+
+----
+
+#### 3. Install Paket yang dibutuhkan 
+
+**Apa** yang dimaksud dengan install paket yang dibutuhkan ? Artinya adalah Install library atau tools Python yang lo perlukan ke dalam environment uv (bukan ke sistem global). Misal lo bikin proyek analisis data. Kita pasti butuh library kayak:
+
+    - numpy
+    
+    -pandas
+    
+    -matplotlib
+
+Nah, semua itu kita install ke dalam .venv (environment lokal) yang udah dibuat pake uv, bukan ke Python utama di laptop. 
+
+Install paket di uv environment itu kayak masukin alat ke toolbox pribadi. Gak minjem alat tukang sebelah, gak ribet rebutan, semua aman di tempat sendiri. Kalo kita mau upgrade, hapus, atau backup, tinggal gas aja. 
+
+**Kenapa** harus install paket yang dibutuhkan ? karena setiap proyek kebutuhannya berbeda-beda dan hal ini agar proyek kita menjadi bersih dan rapi.
+
+langkah-langkah yang harus kita lakukan adalah :
+
+1.	Ketik: uv add pandas
+2.	maka outputnya akan seperti ini :
+
+![uv-add-pandas](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/uv-add-pandas.png)
+
+-----
+
+#### 4. Menonaktifkan Lingkungan UV
+
+**Apa** maksud dari Menonaktifkan Lingkungan UV? Nah, sini aku jelasin ya jadi Menonaktifkan Lingkungan UV artinya kita keluar dari environment yang sudah kita buat sebelumnya. Kembali ke Phyton utama di laptop kita.
+
+**kenapa** harus Menonaktifkan Lingkungan UV? karena ya biar jelas kapan kita selesai atau kapan kita sedang mengerjakan proyek tersebut. Dan agar ga bentrok sama proyek lainnya.
+
+Langkah-langkah:
+1.	Ketik: .venv\Scripts\deactivate
+2.	Prompt kembali ke C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>.
+
+![uv-ghost](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/uv-ghost.png)
+
+
+**Do's** : 
+    - Selalu nonaktifkan env setelah selesai kerja	Biar gak ketuker waktu pindah proyek
+    - Nonaktifkan sebelum aktifin env lain	Biar gak bentrok
+
+**Don'ts** : 
+    - Jangan install paket di terminal kalau lupa environment-nya aktif apa enggak
+    - Jangan aktifin dua environment sekaligus 
+
+----
