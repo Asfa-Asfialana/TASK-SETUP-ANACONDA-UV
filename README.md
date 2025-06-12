@@ -65,12 +65,14 @@ Udah langsung bawa Python + ratusan tools penting buat data science, machine lea
   
 Berikut Tutorialnya : 
 **1**. ![install1](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/install1.png)
+
 **2.** ![install2](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/install2.png)
+
 **3.** ![Install3](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/Install3.png)
 
-**eeittss,** aku mau kasih tau sesuatu sebelum lanjut ke tutorial
+**4.** ![install4](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/install4.png)
 
-Pas kamu install Anaconda, pasti nemu opsi:
+**eeittss,** aku mau kasih tau sesuatu sebelum lanjut ke tutorial. Pas kamu Next ke tahap berikutnya saat install Anaconda, pasti nemu opsi:
 -✅ "Add Anaconda to my PATH environment variable"
 Nah, ini penting banget untuk dipahami:
 
@@ -79,6 +81,18 @@ Nah, ini penting banget untuk dipahami:
     
 **Don'ts**:
     - jika kamu merasa tidak memerlukannya, maka tidak perlu di ceklis (opsional)
+
+**5.** ![install5](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/install5.png)
+
+**Do's**: Tetap di direktori yang otomatis dipilih system
+
+**Don'ts**: Jangan ubah direktori
+
+**6.** ![install6](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/install6.png)
+
+**7.** ![install8](https://github.com/Asfa-Asfialana/TASK-SETUP-ANACONDA-UV/blob/main/Task-anaconda/install8.png)
+
+Berhasil dan Proses instalasi sudah selesai dilakukan 🎉
       
 -----
 
